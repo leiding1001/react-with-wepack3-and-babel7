@@ -1,0 +1,51 @@
+{
+  "git.ignoreLimitWarning": true,
+  "eslint.enable": true,
+  "eslint.options": {
+    "configFile": "./.eslintrc.js",
+    "extensions": [".js", ".jsx"]
+  },
+  "eslint.nodePath": "./node_moudles",
+  "eslint.autoFixOnSave": false,
+  // Set the default
+  "editor.formatOnSave": false,
+  // Enable per-language
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "[json]": {
+    "editor.formatOnSave": false
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/dist": true,
+    "**/build": true,
+    "**/*-build": true
+  },
+  // "prettier.disableLanguages": ["javascript", "javascriptreact", "vue"],
+  "javascript.format.enable": true,
+  "prettier.singleQuote": true,
+  "editor.tabSize": 2,
+  "cSpell.words": [
+    "logined",
+    "ignorable",
+    "otms",
+    "captcha",
+    "styl",
+    "epod",
+    "antd",
+    "polyfill",
+    "devtool",
+    "Dropdown",
+    "Sider",
+    "anticon",
+    "onboarding",
+    "wechat",
+    "fintech",
+    "selectable",
+    "tracktrace",
+    "vaadin"
+    
+  ]
+}

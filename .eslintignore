@@ -1,0 +1,8 @@
+src/example/*
+
+src/js/common/lib/*
+build/*
+dist/*
+*-build/*
+*-dist/*
+static/*

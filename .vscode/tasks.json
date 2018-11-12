@@ -1,0 +1,129 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  // shortcuts `Command + Shift + B`
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "npm",
+      "script": "eslint:report",
+      "problemMatcher": [
+        "$eslint-stylish"
+      ],
+      "group": {
+          "kind": "build",
+          "isDefault": true
+      }
+    },
+    {
+      "type": "npm",
+      "script": "start:dll",
+      "problemMatcher": [
+        "$eslint-stylish"
+      ],
+      "group": {
+          "kind": "build",
+          "isDefault": true
+      }
+    },
+    {
+      "type": "npm",
+      "script": "start:api",
+      "problemMatcher": [
+        "$eslint-stylish"
+      ],
+      "group": {
+          "kind": "build",
+          "isDefault": true
+      }
+    },
+    {
+      "type": "npm",
+      "script": "start:tt",
+      "problemMatcher": [
+        "$eslint-stylish"
+      ],
+      "group": {
+          "kind": "build",
+          "isDefault": true
+      }
+    },
+    {
+      "type": "npm",
+      "script": "build:tt",
+      "problemMatcher": [
+        "$eslint-stylish"
+      ],
+      "group": {
+          "kind": "build",
+          "isDefault": true
+      }
+    },
+    {
+      "type": "npm",
+      "script": "start:bi",
+      "problemMatcher": [
+        "$eslint-stylish"
+      ],
+      "group": {
+          "kind": "build",
+          "isDefault": true
+      }
+    },
+    {
+      "type": "npm",
+      "script": "build:bi",
+      "problemMatcher": [
+        "$eslint-stylish"
+      ],
+      "group": {
+          "kind": "build",
+          "isDefault": true
+      }
+    },
+    {
+      "type": "npm",
+      "script": "start:ob",
+      "problemMatcher": [
+        "$eslint-stylish"
+      ],
+      "group": {
+          "kind": "build",
+          "isDefault": true
+      }
+    },
+    {
+      "type": "npm",
+      "script": "build:ob",
+      "problemMatcher": [
+        "$eslint-stylish"
+      ],
+      "group": {
+          "kind": "build",
+          "isDefault": true
+      }
+    },
+    {
+      "type": "npm",
+      "script": "start:ec",
+      "problemMatcher": [
+        "$eslint-stylish"
+      ],
+      "group": {
+          "kind": "build",
+          "isDefault": true
+      }
+    },
+    {
+      "type": "npm",
+      "script": "build:ec",
+      "problemMatcher": [
+        "$eslint-stylish"
+      ],
+      "group": {
+          "kind": "build",
+          "isDefault": true
+      }
+    }
+  ]
+}

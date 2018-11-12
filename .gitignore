@@ -1,0 +1,7 @@
+build/
+node_modules/
+.npmrc
+coverage/
+*build/
+dist/
+*dist/
