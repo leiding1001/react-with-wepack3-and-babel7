@@ -58,7 +58,5 @@ app.listen(apiPort, function(err) {
   } else {
     console.info(`===> api server is running at ${apiHost}:${apiPort}`);
   }
-  console.log(
-    '-------------------------API-CONFIG-END----------------------------------------'
-  );
+  console.log('-------------------------API-CONFIG-END----------------------------------------');
 });

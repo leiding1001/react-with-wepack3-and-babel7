@@ -13,7 +13,7 @@ const dllConfig = {
   entry: {
     shim: [
       'console-polyfill',
-      'babel-polyfill',
+      '@babel/polyfill',
       'raf/polyfill',
       'media-match'
     ],

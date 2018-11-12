@@ -6,17 +6,6 @@
   "tasks": [
     {
       "type": "npm",
-      "script": "eslint:report",
-      "problemMatcher": [
-        "$eslint-stylish"
-      ],
-      "group": {
-          "kind": "build",
-          "isDefault": true
-      }
-    },
-    {
-      "type": "npm",
       "script": "start:dll",
       "problemMatcher": [
         "$eslint-stylish"
@@ -39,7 +28,7 @@
     },
     {
       "type": "npm",
-      "script": "start:tt",
+      "script": "start",
       "problemMatcher": [
         "$eslint-stylish"
       ],
@@ -50,73 +39,7 @@
     },
     {
       "type": "npm",
-      "script": "build:tt",
-      "problemMatcher": [
-        "$eslint-stylish"
-      ],
-      "group": {
-          "kind": "build",
-          "isDefault": true
-      }
-    },
-    {
-      "type": "npm",
-      "script": "start:bi",
-      "problemMatcher": [
-        "$eslint-stylish"
-      ],
-      "group": {
-          "kind": "build",
-          "isDefault": true
-      }
-    },
-    {
-      "type": "npm",
-      "script": "build:bi",
-      "problemMatcher": [
-        "$eslint-stylish"
-      ],
-      "group": {
-          "kind": "build",
-          "isDefault": true
-      }
-    },
-    {
-      "type": "npm",
-      "script": "start:ob",
-      "problemMatcher": [
-        "$eslint-stylish"
-      ],
-      "group": {
-          "kind": "build",
-          "isDefault": true
-      }
-    },
-    {
-      "type": "npm",
-      "script": "build:ob",
-      "problemMatcher": [
-        "$eslint-stylish"
-      ],
-      "group": {
-          "kind": "build",
-          "isDefault": true
-      }
-    },
-    {
-      "type": "npm",
-      "script": "start:ec",
-      "problemMatcher": [
-        "$eslint-stylish"
-      ],
-      "group": {
-          "kind": "build",
-          "isDefault": true
-      }
-    },
-    {
-      "type": "npm",
-      "script": "build:ec",
+      "script": "build",
       "problemMatcher": [
         "$eslint-stylish"
       ],

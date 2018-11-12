@@ -6,7 +6,6 @@ import {
   Redirect
 } from 'react-router-dom';
 
-
 const HomeContainer = () => (
   <div>
     {'Home Container'}
