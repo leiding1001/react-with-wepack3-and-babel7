@@ -121,8 +121,16 @@ module.exports = {
     }),
     new CopyWebpackPlugin([
       {
+        from: pathLib.resolve(ROOT_PATH, 'static/robots.txt')
+      },
+      {
         context: DLL_DIR_PATH,
         from: "*.dll.js",
+        to: "static/js"
+      },
+      {
+        context: pathLib.resolve(ROOT_PATH, 'static/js'),
+        from: "*.js",
         to: "static/js"
       }
     ]),
