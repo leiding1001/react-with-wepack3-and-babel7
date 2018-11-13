@@ -12,13 +12,13 @@
   },
   "betterScripts": {
     "start:dll": {
-      "command": "webpack --config ./config/webpack.dll.babel.js",
+      "command": "webpack --config ./config/webpack.dll.js",
       "env": {
         "NODE_ENV": "dev"
       }
     },
     "build:dll": {
-      "command": "webpack --config ./config/webpack.dll.babel.js",
+      "command": "webpack --config ./config/webpack.dll.js",
       "env": {
         "NODE_ENV": "prod"
       }
