@@ -40,6 +40,7 @@ module.exports = {
         exclude: /node_modules/,
         loader: 'eslint-loader',
         options: {
+          formatter: require('eslint-formatter-friendly'),
           emitWarning: true
         }
       },

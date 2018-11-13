@@ -1,11 +1,9 @@
 const pathLib = require('path');
 const CleanPlugin = require('clean-webpack-plugin');
 const webpack = require('webpack');
-const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 
 const ROOT_PATH = pathLib.resolve(__dirname, '..');
 const OUTPUT_PATH = pathLib.resolve(ROOT_PATH, 'dll-dist');
-
 
 const isDev = process.env.NODE_ENV !== 'prod';
 
@@ -64,7 +62,7 @@ const dllConfig = {
 
 if (!isDev) {
   dllConfig.plugins.push(
-    new UglifyJSPlugin({
+    new webpack.optimize.UglifyJsPlugin({
       sourceMap: false
     })
   );
