@@ -6,3 +6,12 @@
 * eslint
 * Express APi Mock Server
 
+
+# Run
+```sh
+npm install
+npm run start:dll
+npm run start:api
+npm run start
+```
+
